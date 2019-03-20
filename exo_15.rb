@@ -1,7 +1,6 @@
 puts "Quel est votre année de naissance ?"
 print "> "
-user_birthyear = gets.chomp
-user_birthyear = user_birthyear.to_i
+user_birthyear = gets.chomp.to_i
 increment = 0
 
 until (user_birthyear == 2018)

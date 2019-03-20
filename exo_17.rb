@@ -1,7 +1,7 @@
 puts "Quel est votre âge ?"
 print "> "
-user_age = gets.chomp
-user_age = user_age.to_i
+
+user_age = gets.chomp.to_i
 target_age = user_age
 increment = 0
 

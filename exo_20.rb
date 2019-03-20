@@ -1,10 +1,11 @@
 puts "Combien d'étages veux tu?"
+print "> "
 
-hauteur = gets.chomp
+hauteur = gets.chomp.to_i
 largeur = 1
 
-hauteur.to_i.times do 
-	largeur.times do
+hauteur.times do
+	largeur.times do	
 		print "#"
 	end
 	largeur += 1

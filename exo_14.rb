@@ -1,7 +1,6 @@
 puts "Combien de nombres pour le compte à rebours ?"
 print "> "
-num = gets.chomp
-num = num.to_i
+num = gets.chomp.to_i
 
 until (num <= 0)
 	num -= 1
