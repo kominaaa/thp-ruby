@@ -2,7 +2,7 @@ puts "Combien d'étages veux tu?"
 print "> "
 puts ""
 
-hauteur = 5
+hauteur = gets.chomp.to_i
 iteration = 1
 
 while iteration <= hauteur

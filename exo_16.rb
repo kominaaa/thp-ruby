@@ -5,7 +5,7 @@ target_age = user_age
 increment = 0
 
 user_age.times do |years|
-	puts "Il y a #{target_age} ans to avais #{increment} ans."	
+	puts "Il y a #{target_age} ans tu avais #{increment} ans."	
 	increment += 1
 	target_age -= 1
 end

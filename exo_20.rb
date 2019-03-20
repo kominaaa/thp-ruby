@@ -1,5 +1,6 @@
 puts "Combien d'étages veux tu?"
 print "> "
+puts ""
 
 hauteur = gets.chomp.to_i
 largeur = 1

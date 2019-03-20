@@ -3,10 +3,10 @@ print "> "
 puts ""
 
 hauteur = gets.chomp.to_i
-iteration = 0
+iteration = 1
 
 while iteration <= hauteur
-	print "." * (hauteur - iteration)
+	print " " * (hauteur - iteration)
 	print "#" * (iteration)
 	puts ""
 	iteration +=1
