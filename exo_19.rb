@@ -15,7 +15,7 @@ evens = ["0@","2@","4@","6@","8@"]
 
 mail_array.each do |mail|
 iterate = 0
-	while num != 5
+	while iterate != 5
 		if mail.include? evens[iterate]
 			puts mail
 		end
